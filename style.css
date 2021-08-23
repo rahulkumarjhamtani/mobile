@@ -1,8 +1,3 @@
-th
-{ 
-    text-align:center;
-    border-style:none;
-}
 
 td{      
     border-radius:50px;
@@ -10,11 +5,15 @@ td{
     width:30%;
     transition:backdrop-filter 1s;
 }
+th
+{ 
+    text-align:center;
+    border-style:none;
+}
 
 td:hover{ 
     /* background-image:url("img/hover.png"); */
-    backdrop-filter: blur(20px);
-    background-size:100% 100%;
+    backdrop-filter: blur(10px);
 }
 .bg
 {
